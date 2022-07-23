@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.fontSize": 15,
+    "workbench.iconTheme": null,
+    "security.workspace.trust.untrustedFiles": "open",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "emmet.triggerExpansionOnTab": true,
+    "editor.formatOnSave": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.untitled.hint": "hidden",
+    "files.exclude": {
+        "**/*.js.map": true,
+        "**/*.meta": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true
+}

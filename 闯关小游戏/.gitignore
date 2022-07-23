@@ -1,0 +1,6 @@
+.idea/
+DBCache/
+Pictures/*
+JavaScripts/*.js
+JavaScripts/*.js.map
+*.lock

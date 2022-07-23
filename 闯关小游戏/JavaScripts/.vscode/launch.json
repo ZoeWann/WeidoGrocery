@@ -1,0 +1,39 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Client",
+            "type": "node",
+            "request": "attach",
+            "protocol": "inspector",
+            "trace": true,
+            "sourceMaps": true,
+            "remoteRoot": "E:/MetaApp/launcher-win32-ia32/resources/app/MW/Meta/WindowsNoEditor/MW/Saved/MetaWorld/Users/15928091764/Projects/tsleaningdemo/JavaScripts",
+            "localRoot": "${workspaceFolder}",
+            "port": 58862
+        },
+        {
+            "name": "Server",
+            "type": "node",
+            "request": "attach",
+            "protocol": "inspector",
+            "trace": true,
+            "sourceMaps": true,
+            "remoteRoot": "E:/MetaApp/launcher-win32-ia32/resources/app/MW/Meta/WindowsNoEditor/MW/Saved/MetaWorld/Users/15928091764/Projects/tsleaningdemo/JavaScripts",
+            "localRoot": "${workspaceFolder}",
+            "port": 58859
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Pure Ts",
+            "configurations": [
+                "Server",
+                "Client"
+            ],
+        }
+    ]
+}
