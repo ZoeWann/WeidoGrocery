@@ -208,6 +208,12 @@ https://indienova.com/indie-game-development/ai-behavior-trees-how-they-work/
 
 ##### 最短路径算法
 
+ 
+
+###### Dijkstra算法
+
+
+
 ###### A*算法
 
 A*（A-Star)算法是一种静态路网中求解最短路最有效的方法。
@@ -224,6 +230,14 @@ h(n)：对h*(n)的估计，是从n到目标节点的估计代价，称为启发�
 例如：当h(n) = 0, g(n) = d, 则f(n) = g(n)就变为了宽度优先搜索，也就是如果不需要启发，那就是宽度优先搜索的算法了。
 
 
+
+https://www.cnblogs.com/Blacktears/p/10090496.html#_label11_6
+
+
+
+
+
+###### B*算法
 
 
 
@@ -269,7 +283,7 @@ h(n)：对h*(n)的估计，是从n到目标节点的估计代价，称为启发�
 
 
 
-###### Dijkstra算法
+###### 
 
 
 
