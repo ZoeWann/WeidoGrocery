@@ -233,7 +233,7 @@ h(n)：对h*(n)的估计，是从n到目标节点的估计代价，称为启发�
 
 https://www.cnblogs.com/Blacktears/p/10090496.html#_label11_6
 
-
+https://www.cnblogs.com/tongy0/p/5662360.html
 
 
 
