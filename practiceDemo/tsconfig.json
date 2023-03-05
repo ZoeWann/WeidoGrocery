@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "module": "commonjs", // 生成代码的模板标准
     "target": "es6", // 目标语言的版本，现在基本都是ES6
     "noImplicitAny": true, // 不允许隐式的any类型

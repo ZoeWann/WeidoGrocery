@@ -8,6 +8,7 @@
  * @param descriptor 该属性的描述
  * @returns 
  */
+console.log(`===================================方法装饰器`);
 function smile(target: Greeter, propertyKey: string, descriptor: PropertyDescriptor) {
     return {
         ...descriptor,
@@ -39,6 +40,8 @@ function smileWithParams(times: number) {
     }
 }
 
+function test(target: Greeter) {
+}
 
 class Greeter {
     static active = false;
@@ -65,6 +68,7 @@ console.log(Greeter.active);
  * 2.求值的结果会被当作函数，由下至上依次调用
  */
 
+console.log(`===================================类装饰器`);
 
 function classDecorator<T extends { new(...args: any[]): {} }>(constructor: T) {
     return class extends constructor {
@@ -81,5 +85,9 @@ class Greeter2 {
         this.hello = m;
     }
 }
-
 console.log(new Greeter2("world"));
+
+
+
+
+
